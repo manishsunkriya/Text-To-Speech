@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #37082A;
+}
+.navbar{
+    margin-top: 50px;
+    height: 40px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outerbox{
+    /* background-color: burlywood; */
+    background-image: url(pexels-quang-nguyen-vinh-222549-2171277.jpg);
+    background-size: cover;
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerbox{
+    /* background-color: chartreuse; */
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
